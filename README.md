@@ -13,13 +13,13 @@
 
 ## 👥 Membres de l'Équipe
 
-**Nom du Groupe :** [Insérer le nom du groupe ici]
+**Nom du Groupe :** [G5]
 
 | Prénom & Nom | Rôle / Tâches principales | Lien Github |
 |--------------|---------------------------|-------------|
-| Étudiant 1   | (ex: Dashboard, ChartJS)  | [@pseudo](https://github.com/pseudo) |
-| Étudiant 2   | (ex: CRUD Utilisateurs)   | [@pseudo](https://github.com/pseudo) |
-| Étudiant 3   | (ex: CSS, Responsive)     | [@pseudo](https://github.com/pseudo) |
+| charafeddine el qaraouy   | (ex: Dashboard, ChartJS)  | [@pseudo](https://github.com/pseudo) |
+| elmoistafa errachidi   | (ex: CRUD Utilisateurs)   | [@pseudo](https://github.com/pseudo) |
+| houssame wahid  | (ex: CSS, Responsive)     | [@pseudo](https://github.com/pseudo) |
 
 ---
 
