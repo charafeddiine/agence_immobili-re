@@ -1,0 +1,194 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Ahmed Alami",
+      "email": "ahmed.alami@gmail.com",
+      "phone": "0612345678",
+      "status": "Premium"
+    },
+    {
+      "id": "2",
+      "name": "Fatima Benali",
+      "email": "fatima.benali@outlook.com",
+      "phone": "0623456789",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Youssef Idrissi",
+      "email": "y.idrissi@yahoo.fr",
+      "phone": "0634567890",
+      "status": "New"
+    },
+    {
+      "id": "4",
+      "name": "Aicha El Fassi",
+      "email": "aicha.elfassi@gmail.com",
+      "phone": "0645678901",
+      "status": "Premium"
+    },
+    {
+      "id": "5",
+      "name": "Omar Tazi",
+      "email": "omar.tazi@business.ma",
+      "phone": "0656789012",
+      "status": "Active"
+    }
+  ],
+  "biens": [
+    {
+      "id": "1",
+      "address": "Villa Californie, Casablanca",
+      "type": "Maison",
+      "price": "4500000",
+      "surface": "350",
+      "status": "À Vendre",
+      "image": null
+    },
+    {
+      "id": "2",
+      "address": "Appartement Hay Riad, Rabat",
+      "type": "Appartement",
+      "price": "1200000",
+      "surface": "120",
+      "status": "Sous Offre",
+      "image": null
+    },
+    {
+      "id": "3",
+      "address": "Studio Agdal, Rabat",
+      "type": "Appartement",
+      "price": "350000",
+      "surface": "45",
+      "status": "À Louer",
+      "image": null
+    },
+    {
+      "id": "4",
+      "address": "Terrain Constructible, Marrakech",
+      "type": "Terrain",
+      "price": "850000",
+      "surface": "500",
+      "status": "À Vendre",
+      "image": null
+    },
+    {
+      "id": "5",
+      "address": "Local Commercial, Avenue Mohammed V, Casablanca",
+      "type": "Commercial",
+      "price": "2200000",
+      "surface": "150",
+      "status": "À Vendre",
+      "image": null
+    },
+    {
+      "id": "6",
+      "address": "Villa avec Piscine, Anfa, Casablanca",
+      "type": "Maison",
+      "price": "8500000",
+      "surface": "450",
+      "status": "Vendu",
+      "image": null
+    },
+    {
+      "id": "7",
+      "address": "Riad Médina, Marrakech",
+      "type": "Maison",
+      "price": "3200000",
+      "surface": "280",
+      "status": "À Vendre",
+      "image": null
+    },
+    {
+      "id": "8",
+      "address": "Appartement T2, Hay Riad, Rabat",
+      "type": "Appartement",
+      "price": "650000",
+      "surface": "75",
+      "status": "À Louer",
+      "image": null
+    }
+  ],
+  "agents": [
+    {
+      "id": "1",
+      "name": "Khadija Amrani",
+      "specialty": "Vente Résidentielle"
+    },
+    {
+      "id": "2",
+      "name": "Mehdi Alaoui",
+      "specialty": "Location"
+    },
+    {
+      "id": "3",
+      "name": "Sanae Bennani",
+      "specialty": "Immobilier de Luxe"
+    },
+    {
+      "id": "4",
+      "name": "Hassan Berrada",
+      "specialty": "Commercial"
+    }
+  ],
+  "contrats": [
+    {
+      "id": "1",
+      "ref": "CONT-2024-001",
+      "date": "2024-01-15",
+      "amount": "8500000"
+    },
+    {
+      "id": "2",
+      "ref": "CONT-2024-002",
+      "date": "2024-02-20",
+      "amount": "4500000"
+    },
+    {
+      "id": "3",
+      "ref": "CONT-2024-003",
+      "date": "2024-03-10",
+      "amount": "3200000"
+    },
+    {
+      "id": "4",
+      "ref": "CONT-2024-004",
+      "date": "2024-04-05",
+      "amount": "2200000"
+    },
+    {
+      "id": "5",
+      "ref": "CONT-2024-005",
+      "date": "2024-05-12",
+      "amount": "1200000"
+    }
+  ],
+  "rdvs": [
+    {
+      "id": "1",
+      "object": "Visite Villa Californie, Casablanca",
+      "date": "2024-12-28",
+      "time": "14:00"
+    },
+    {
+      "id": "2",
+      "object": "Signature Contrat Appartement Hay Riad",
+      "date": "2024-12-30",
+      "time": "10:00"
+    },
+    {
+      "id": "3",
+      "object": "Réunion Client Premium - Riad Marrakech",
+      "date": "2025-01-05",
+      "time": "15:30"
+    },
+    {
+      "id": "4",
+      "object": "Visite Local Commercial, Casablanca",
+      "date": "2025-01-08",
+      "time": "11:00"
+    }
+  ]
+}
+

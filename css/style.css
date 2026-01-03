@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body { 
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    background-color: #F8FAFC; 
+}
+
+.sidebar-item-active {
+    background: rgba(99, 102, 241, 0.1);
+    color: #6366F1 !important;
+}
+
+.section-content { display: none; }
+.section-content.active { display: block; animation: slideIn 0.4s ease-out; }
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Toast Notification */
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 50;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+#toast-container.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.custom-scrollbar::-webkit-scrollbar { width: 6px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #E2E8F0; border-radius: 10px; }
+
+/* File Input Styling */
+.file-upload-wrapper {
+    border: 2px dashed #CBD5E1;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: #F8FAFC;
+}
+.file-upload-wrapper:hover {
+    border-color: #6366F1;
+    background: #EEF2FF;
+}
+

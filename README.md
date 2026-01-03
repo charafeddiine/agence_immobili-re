@@ -59,15 +59,44 @@
 
 ## 🛠 Stack Technique
 
-*   **HTML5 / CSS3** (Framework CSS utilisé : Bootstrap / Tailwind / Autre ?)
+*   **HTML5 / CSS3** (Framework CSS utilisé : Tailwind CSS)
 *   **JavaScript (ES6+)** (Vanilla JS obligatoire)
-*   **Bibliothèques JS utilisées :** (ex: Chart.js, Faker.js, jsPDF, Lodash...)
+*   **Bibliothèques JS utilisées :** Chart.js, Font Awesome, Tailwind CSS (CDN)
 
 ### APIs Utilisées
-<!-- Listez les APIs externes ou précisez si vous utilisez des données mockées -->
-*   Source des données : [ex: JSONPlaceholder, Mockaroo, API locale...]
-    *   Endpoint 1 : `https://api.emple.com/users`
-    *   Endpoint 2 : ...
+*   Source des données : LocalStorage (données stockées localement dans le navigateur)
+
+## 📁 Architecture du Projet
+
+Le projet est organisé selon une architecture modulaire claire :
+
+```
+agence_immobili-re/
+├── index.html          # Point d'entrée principal (structure HTML)
+├── css/
+│   └── style.css       # Styles personnalisés et animations
+├── js/
+│   ├── utils.js        # Utilitaires et gestion du stockage (LocalStorage)
+│   ├── main.js         # Script d'initialisation principal
+│   └── modules/
+│       ├── auth.js     # Module d'authentification
+│       ├── app.js      # Contrôleur principal de l'application
+│       ├── client.js   # Module CRUD pour les clients
+│       ├── bien.js     # Module CRUD pour les biens immobiliers
+│       ├── agent.js    # Module CRUD pour les agents
+│       ├── contrat.js  # Module CRUD pour les contrats
+│       ├── rdv.js      # Module CRUD pour les rendez-vous
+│       └── analytics.js # Module de statistiques et graphiques
+└── assets/             # Ressources statiques (images, etc.)
+```
+
+### Structure des Modules
+
+- **utils.js** : Fonctions utilitaires partagées (génération d'ID, formatage, notifications toast)
+- **Storage** : Gestion centralisée du LocalStorage
+- **modules/auth.js** : Authentification et gestion de session
+- **modules/app.js** : Navigation entre les sections et initialisation globale
+- **modules/[entity].js** : Chaque module gère son propre CRUD et son rendu
 
 ---
 
