@@ -1,59 +1,55 @@
-# Nom du Projet (ex: MyManager - Gestion Hospitalière)
+# Agence Immobilière - Gestion d'Agence Immobilière
 
-<!-- Mettez un court slogan ou une description en une phrase ici -->
-> Application Backoffice de gestion réalisée dans le cadre du module Dévelopement web.
+> Application Backoffice de gestion réalisée dans le cadre du module Développement web.
 
 ## 🔗 Liens Importants
 
-<!-- REMPLACEZ LES LIENS CI-DESSOUS -->
-- **APPLICATION DÉPLOYÉE (Live Demo) :** [CLIQUEZ ICI POUR VOIR LE SITE](https://)
-- **Repository GitHub :** [Lien vers ce repo](https://)
+- **APPLICATION DÉPLOYÉE (Live Demo) :** Non déployé, lancer localement via Live Server
+- **Repository GitHub :** [Lien vers ce repo](https://github.com/charafeddiine/agence_immobili-re.git)
 
 ---
 
 ## 👥 Membres de l'Équipe
 
-**Nom du Groupe :** [G5]
+**Nom du Groupe :** G5
 
 | Prénom & Nom | Rôle / Tâches principales | Lien Github |
 |--------------|---------------------------|-------------|
-| charafeddine el qaraouy   | (ex: Dashboard, ChartJS)  | [@pseudo](https://github.com/pseudo) |
-| elmoistafa errachidi   | (ex: CRUD Utilisateurs)   | [@pseudo](https://github.com/pseudo) |
-| houssame wahid  | (ex: CSS, Responsive)     | [@pseudo](https://github.com/pseudo) |
+| Charafeddine El Qaraouy | Dashboard, Analytics, Architecture | [@charafeddiine](https://github.com/charafeddiine) |
+| Elmoistafa Errachidi | CRUD Biens, Contrats, Rendez-vous | [@pseudo](https://github.com/pseudo) |
+| Houssame Wahid | CRUD Clients, Agents, CSS, Responsive | [@pseudo](https://github.com/pseudo) |
 
 ---
 
 ## 📝 Thème Choisi
-<!-- Indiquez le thème choisi parmi la liste ou votre sujet personnalisé -->
-*   **Thème :** (ex: Gestion de Bibliothèque / Gestion Immobilière / Custom...)
-*   **Description :** Une brève explication du but de l'application.
+*   **Thème :** Gestion Immobilière
+*   **Description :** Application de gestion d'agence immobilière permettant de gérer les clients, biens immobiliers, agents, contrats et rendez-vous avec un dashboard analytique.
 
 ---
 
 ## ✅ État d'Avancement (Checklist)
-<!-- Cochez les cases [x] pour les fonctionnalités terminées. Laissez [ ] pour ce qui n'est pas fait. -->
 
 ### Fonctionnalités Principales
-- [ ] **CRUD 1 :** [Nom Entité, ex: Utilisateurs] (Create, Read, Update, Delete)
-- [ ] **CRUD 2 :** [Nom Entité]
-- [ ] **CRUD 3 :** [Nom Entité]
-- [ ] **CRUD 4 :** [Nom Entité]
-- [ ] **CRUD 5 :** [Nom Entité]
-- [ ] **Recherche & Filtres** dans les tableaux
+- [x] **CRUD 1 :** Clients (Create, Read, Update, Delete)
+- [x] **CRUD 2 :** Biens Immobiliers
+- [x] **CRUD 3 :** Agents
+- [x] **CRUD 4 :** Contrats
+- [x] **CRUD 5 :** Rendez-vous
+- [x] **Recherche & Filtres** dans les tableaux
 - [ ] **Pagination**
 
 ### Dashboard & Data
-- [ ] **KPIs :** Cartes avec chiffres clés (Total utilisateurs, revenus, etc.)
-- [ ] **Chart 1 :** [Type, ex: Pie Chart]
-- [ ] **Chart 2 :** [Type, ex: Bar Chart]
-- [ ] **Chart 3 :** [Type]
-- [ ] **Chart 4 :** [Type]
-- [ ] **Chart 5 :** [Type]
+- [x] **KPIs :** Cartes avec chiffres clés (Total clients, biens, contrats, etc.)
+- [x] **Chart 1 :** Bar Chart (Répartition des statuts clients)
+- [x] **Chart 2 :** Pie Chart (Types de biens)
+- [x] **Chart 3 :** Line Chart (Évolution des contrats)
+- [x] **Chart 4 :** Doughnut Chart (Statuts des biens)
+- [x] **Chart 5 :** Bar Chart (Rendez-vous par mois)
 
 ### Technique & Bonus
 - [ ] **Export :** (PDF ou CSV)
-- [ ] **Architecture :** Code organisé sans Framework (Vanilla JS)
-- [ ] **Design :** Interface Responsive (Mobile/Tablette)
+- [x] **Architecture :** Code organisé sans Framework (Vanilla JS)
+- [x] **Design :** Interface Responsive (Mobile/Tablette)
 
 ---
 
@@ -106,11 +102,11 @@ Pour lancer le projet localement :
 
 1.  Cloner le repo :
     ```bash
-    git clone https://github.com/votre-user/votre-repo.git
+    git clone https://github.com/charafeddiine/agence_immobili-re.git
     ```
 2.  Ouvrir le dossier :
     ```bash
-    cd votre-dossier
+    cd agence_immobili-re
     ```
 3.  Lancer l'application :
     *   Ouvrez simplement `index.html` dans votre navigateur.
