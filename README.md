@@ -15,9 +15,9 @@
 
 | Prénom & Nom | Rôle / Tâches principales | Lien Github |
 |--------------|---------------------------|-------------|
-| Charafeddine El Qaraouy | Dashboard, Analytics, Architecture | [@charafeddiine](https://github.com/charafeddiine) |
-| Elmoistafa Errachidi | CRUD Biens, Contrats, Rendez-vous | [@pseudo](https://github.com/pseudo) |
-| Houssame Wahid | CRUD Clients, Agents, CSS, Responsive | [@pseudo](https://github.com/pseudo) |
+| Houssame wahid | Css, Analytics, Architecture | [@pseudo](https://github.com/pseudo) |
+| Elmoustafa Errachidi | CRUD Biens, Contrats, Rendez-vous | [@pseudo](https://github.com/pseudo) |
+| charafeddine elqaraouy| CRUD Clients, Agents, dashboard, Responsive |  [@charafeddiine](https://github.com/charafeddiine) |
 
 ---
 
