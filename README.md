@@ -1,10 +1,10 @@
 # Agence Immobilière - Gestion d'Agence Immobilière
 
-> Application Backoffice de gestion réalisée dans le cadre du module Développement web.
+> Application Backoffice de gestion réalisée dans le cadre du module Développement web
 
 ## 🔗 Liens Importants
 
-- **APPLICATION DÉPLOYÉE (Live Demo) :** Non déployé, lancer localement via Live Server
+- **APPLICATION DÉPLOYÉE (Live Demo) :https://charafeddiine.github.io/agence_immobili-re/
 - **Repository GitHub :** [Lien vers ce repo](https://github.com/charafeddiine/agence_immobili-re.git)
 
 ---
